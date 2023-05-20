@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300&display=swap');
+
+$primary-font: 'Changa', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$primary-color:#E51515;
+$secondary-color:#14151A;
+$date-color:#FFB320;
+$comment-color:#08ABBD;
+$gray-color:#9f9f9f;
+$light-color:#fefefe;
+
+
+/**UTILITIES**/
+
+.bg{
+    
+
+    &-dark{
+        background-color: $secondary-color;
+    }
+
+    &-light{
+        background-color: $light-color;
+    }
+}
+
+.ml{
+    &-2{
+        margin-left: 2rem;
+    }
+}
+
+.m{
+    &-1{
+        margin: 1rem;
+    }
+}
+
+.text-light{
+    color:$light-color
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-primary{
+    color: $primary-color;
+}
